@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: master
-        image: redis
+        image: weiss-2.weiss.ddnss.de:5000/docker.io/redis
         resources:
           requests:
             cpu: 100m
