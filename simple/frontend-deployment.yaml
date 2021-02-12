@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: php-redis
-        image: gcr.io/google-samples/gb-frontend:v4
+        image: weiss-2.weiss.ddnss.de:5000/gcr.io/google-samples/gb-frontend:v4
         resources:
           requests:
             cpu: 100m
