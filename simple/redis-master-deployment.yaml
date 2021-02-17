@@ -16,6 +16,8 @@ spec:
         role: master
         tier: backend
     spec:
+      serviceAccount: simple
+      serviceAccountName: simple
       containers:
       - name: master
         image: weiss-2.weiss.ddnss.de:5000/docker.io/redis
