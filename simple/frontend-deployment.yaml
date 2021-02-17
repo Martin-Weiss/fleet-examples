@@ -14,6 +14,8 @@ spec:
         app: guestbook
         tier: frontend
     spec:
+      serviceAccount: simple
+      serviceAccountName: simple
       containers:
       - name: php-redis
         image: weiss-2.weiss.ddnss.de:5000/gcr.io/google-samples/gb-frontend:v4
